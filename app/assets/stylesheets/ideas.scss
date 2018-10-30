@@ -1,3 +1,44 @@
 // Place all the styles related to the ideas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container a.hover {
+  color: #49873e;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.container input[type="submit"] {
+  height: 30px;
+  font-size: 13px;
+  background-color: #49873e;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  &:hover {
+    background-color: #777;
+  }
+}
+
+h1 {
+  font-size: 26px;
+  color: #49873e;
+}
+
+a {
+  color: #49873e;
+}
+
+a:hover, a:focus {
+  color: #254520;
+}
+
+
+input, button, select, textarea {
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+}
